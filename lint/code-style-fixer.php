@@ -13,6 +13,7 @@ $config = (new Config())
         '@Symfony' => true,
         'blank_line_before_statement' => false,
         'no_unneeded_control_parentheses' => false,
+        'phpdoc_to_comment' => false,
         'yoda_style' => false,
     ])
     ->setFinder($finder)
